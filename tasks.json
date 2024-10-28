@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compilar Vehiculo",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-o", "Vehiculo.exe", "Vehiculo.cpp", "Usuario.exe", "Usuario.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
